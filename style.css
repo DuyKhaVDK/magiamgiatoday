@@ -1,11 +1,14 @@
 .header img {
     float: left;
+    align-items: center;
     width: 50px;
     height: 50px;
     background: #555;
   }
   
   .header h1 {
+    font-size: 20px;
+    align-items: center;
     position: relative;
     top: 18px;
     left: 10px;
@@ -19,7 +22,7 @@
 body{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  
   min-height: 100vh;
   flex-direction: column;
   
@@ -219,3 +222,4 @@ footer .container .noi-dung.about p{
       width: 100%;
   }
 }
+  
